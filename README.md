@@ -90,5 +90,7 @@ wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && 
 
 This IP data is usually collected after 1/2 minutes of the user's entry.
 
+# END PAGE...
+
 
 
