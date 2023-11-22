@@ -1,11 +1,10 @@
-# Phishing para captura de senhas
-## Durante o phishing tambem é possivel encontrar:
-IP, IP Type, User Os, User agent, version 32bits or 64bits, browser, location
-Geolocation(lat, lon), Currency
+# Phishing para Captura de Senhas
+## Durante o phishing, também é possível obter:
+IP, Tipo de IP, SO do usuário, Agente do usuário, versão 32 bits ou 64 bits, navegador, localização
+Geolocalização (lat, lon), Moeda
 
-## Porque foi utilizado o PyPhisher:
-##### Because it is phishing tool in python. Includes popular websites like facebook, twitter, instagram, github, reddit, gmail and many others.
-
+## Por que o PyPhisher foi utilizado:
+##### Porque é uma ferramenta de phishing em Python. Inclui sites populares como Facebook, Twitter, Instagram, GitHub, Reddit, Gmail e muitos outros.
 
 ### Ferramentas
 - Kali Linux
@@ -13,47 +12,47 @@ Geolocation(lat, lon), Currency
 
 ### Configurando o Phishing no Kali Linux
 
-- Iniciando: ``` PyPhisher ```
-- Tipo de ataque: ``` Social-Engineering Attacks ```
-- Vetor de ataque: ``` Web Site Attack Vectors ```
-- Método de ataque: ```Credential Harvester Attack Method ```
-- Método de ataque: ``` Site Cloner ```
-- URL para clone: http://www.facebook.com
+- Iniciando a ferramenta: ```PyPhisher```
+- Tipo de ataque: ```Ataques de Engenharia Social```
+- Vetor de ataque: ```Vetores de Ataque a Sites```
+- Método de ataque: ```Método de Ataque de Captura de Credenciais```
+- Método de ataque: ```Clonagem de Site```
+- URL para clonar: http://www.facebook.com
 
-# Como instalar e utilizar:
-##### Install dependencies (git, python, php ssh)
+# Como Instalar e Usar:
+##### Instale as dependências (git, python, php ssh)
 
- - For Debian (Ubuntu, Kali-Linux, Parrot)
+ - Para Debian (Ubuntu, Kali-Linux, Parrot)
     - ```sudo apt install git python3 python3-pip php openssh-client -y```
- - For Arch (Manjaro)
+ - Para Arch (Manjaro)
     - ```sudo pacman -S git python3 python-pip php openssh --noconfirm```
- - For Redhat(Fedora)
+ - Para Redhat (Fedora)
     - ```sudo dnf install git python3 php openssh -y```
- - For Termux
+ - Para Termux
     - ```pkg install git python3 python-pip php openssh -y```
 
-##### Clone this repository
+##### Clone este repositório
 
  - ```git clone https://github.com/KasRoudra/PyPhisher```
 
-##### Enter the directory
+##### Entre no diretório
  - ```cd PyPhisher```
 
-##### Install all modules
+##### Instale todos os módulos
  - ```pip3 install -r files/requirements.txt --break-system-packages```
 
-##### Run the tool
+##### Execute a ferramenta
  - ```python3 pyphisher.py```
 
-#### Or, directly run
+#### Ou, execute diretamente
 ```
 wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
 
 ```
 
 ### Pip
- - `pip3 install pyphisher` [For Termux]
- - `sudo pip3 install pyphisher  --break-system-packages` [For Linux]
+ - `pip3 install pyphisher` [Para Termux]
+ - `sudo pip3 install pyphisher  --break-system-packages` [Para Linux]
  - `pyphisher`
 
 ### Docker
@@ -61,16 +60,34 @@ wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && 
  - `sudo docker pull kasroudra/pyphisher`
  - `sudo docker run --rm -it kasroudra/pyphisher`
 
+## Uso
 
-### Resutados
+1. Execute o script
+2. Escolha um site
+3. Aguarde um tempo para configurar tudo
+4. Envie o link gerado para a vítima
+5. Aguarde o login da vítima. Assim que ela fizer o login, as credenciais serão capturadas
 
-### Nessa imagem já pode ser exibida a senha digitada durante o teste
+<h1 align="center">Exemplo</h1>
+
+![PyPhisher](https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/pyphisher.gif)
+
+## Tutorial em Vídeo
+<a href="https://rebrand.ly/pyphishervideo">PyPhisher no Termux</a>
+<br/>
+<a href="https://youtu.be/xIEuJkmJ8F0">PyPhisher no Kali Linux por InfoSecPat</a>
+<br/>
+<a href="https://youtu.be/ueF6fNHD8MM">PyPhisher no Kali Linux por Sathvik</a>
+
+
+### Resultados
+
+### Esta imagem já pode exibir a senha digitada durante o teste
 ![Alt text](image-1.png)
 
-### Aqui já podemos visualizar os Dados coletados através do IP
+### Aqui já podemos visualizar os dados coletados através do IP
 ![Alt text](image.png)
 
-Esses dados de IP normalmente são coletados após 1/2 minutos da entrada do usuario.
+Esses dados de IP normalmente são coletados após 1/2 minutos da entrada do usuário.
 
-#### video de demonstração
-https://www.youtube.com/watch?v=xIEuJkmJ8F0
+# FIM DA PÁGINA...
