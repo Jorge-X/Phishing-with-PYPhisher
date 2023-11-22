@@ -13,7 +13,7 @@ Geolocation(lat, lon), Currency
 
 ### Configurando o Phishing no Kali Linux
 
-- Iniciando o setoolkit: ``` PyPhisher ```
+- Iniciando: ``` PyPhisher ```
 - Tipo de ataque: ``` Social-Engineering Attacks ```
 - Vetor de ataque: ``` Web Site Attack Vectors ```
 - Método de ataque: ```Credential Harvester Attack Method ```
