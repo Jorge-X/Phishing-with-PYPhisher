@@ -70,3 +70,7 @@ wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && 
 ![Alt text](image.png)
 
 This IP data is usually collected after 1/2 minutes of the user's entry.
+
+#### video using the tool
+https://www.youtube.com/watch?v=xIEuJkmJ8F0
+
