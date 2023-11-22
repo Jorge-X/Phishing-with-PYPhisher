@@ -60,6 +60,25 @@ wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && 
  - `sudo docker pull kasroudra/pyphisher`
  - `sudo docker run --rm -it kasroudra/pyphisher`
 
+## Usage
+
+1. Run the script
+2. Choose a Website
+3. Wait sometimes for setting up all
+4. Send the generated link to victim
+5. Wait for victim login. As soon as he/she logs in, credentials will be captured
+
+<h1 align="center">Example</h1>
+
+![PyPhisher](https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/pyphisher.gif)
+
+## Video Tutorial
+<a href="https://rebrand.ly/pyphishervideo">PyPhisher in Termux</a>
+<br/>
+<a href="https://youtu.be/xIEuJkmJ8F0">PyPhisher in Kali Linux by InfoSecPat</a>
+<br/>
+<a href="https://youtu.be/ueF6fNHD8MM">PyPhisher in Kali Linux by Sathvik</a>
+
 
 ### Results
 
@@ -71,6 +90,5 @@ wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && 
 
 This IP data is usually collected after 1/2 minutes of the user's entry.
 
-#### video using the tool
-https://www.youtube.com/watch?v=xIEuJkmJ8F0
+
 
